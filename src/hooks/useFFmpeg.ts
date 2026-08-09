@@ -19,7 +19,7 @@ export function useFFmpeg() {
 
     ffmpeg.on('progress', ({ progress: p }) => setProgress(p * 100));
 
-    const baseURL = '/ffmpeg';
+    const baseURL = 'https://registry.npmmirror.com/@ffmpeg/core/0.12.10/files/esm';
     await ffmpeg.load({
       coreURL: await toBlobURL(`${baseURL}/ffmpeg-core.js`, 'text/javascript'),
       wasmURL: await toBlobURL(`${baseURL}/ffmpeg-core.wasm`, 'application/wasm'),
