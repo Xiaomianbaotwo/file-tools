@@ -1,0 +1,107 @@
+{
+  "app": {
+    "title": "Convertidor de formato de imagen",
+    "subtitle": "📤 Conversión por lotes · 🔒 Totalmente local · 15+ formatos"
+  },
+  "upload": {
+    "icon": "📁",
+    "dragText": "Arrastra y suelta archivos de imagen aquí o haz clic para seleccionar",
+    "clickHint": "Soporta múltiples archivos · Formatos: PNG/JPG/WEBP…"
+  },
+  "fileList": {
+    "empty": "No se han añadido archivos todavía",
+    "headerName": "📄 Nombre",
+    "headerSize": "📏 Tamaño",
+    "headerFormat": "🎯 Formato destino",
+    "headerQuality": "⚙️ Calidad",
+    "headerStatus": "📌 Estado",
+    "headerActions": "🔧 Acciones",
+    "statusPending": "⏳ Pendiente",
+    "statusConverting": "🔄 Convirtiendo",
+    "statusDone": "✅ Completado",
+    "statusError": "❌ Error",
+    "btnConvert": "Convertir",
+    "btnDownload": "Descargar",
+    "btnDelete": "Eliminar"
+  },
+  "formatSelector": {
+    "label": "🎯 Formato global:"
+  },
+  "qualityControl": {
+    "label": "📐 Calidad global:"
+  },
+  "downloadPanel": {
+    "zip": "📦 Empaquetar todo en ZIP",
+    "downloadAll": "📥 Descargar todos (secuencial)"
+  },
+  "actions": {
+    "convertAll": "🚀 Convertir todo",
+    "clearList": "🗑️ Limpiar lista"
+  },
+  "stats": {
+    "title": "📊 Estadísticas",
+    "total": "📄 Archivos totales",
+    "done": "✅ Completados",
+    "pending": "⏳ Pendientes",
+    "error": "❌ Errores"
+  },
+  "language": {
+    "switch": "🌐 Español / English"
+  },
+  "fileEdit": {
+    "nameLabel": "📝 Nombre de salida (sin extensión)",
+    "sizeLabel": "📐 Tamaño de salida",
+    "resetSize": "Restablecer original",
+    "maxScale": "(ampliación máxima 100×)",
+    "presetRatios": "Relaciones predefinidas:"
+  },
+  "music": {
+    "title": "🎵 Convertidor de música",
+    "subtitle": "📤 Conversión de audio · 🎬 Extraer audio de video · 🔒 Completamente local",
+    "upload": "Arrastra archivos de audio/video aquí",
+    "uploadHint": "Soporta MP3, OGG, FLAC, WAV, M4S, MP4 y más",
+    "outputFormat": "🎯 Formato de salida",
+    "bitrate": {
+      "label": "📶 Bitrate",
+      "default": "Predeterminado (auto)"
+    },
+    "convertBtn": "🚀 Convertir",
+    "progress": "🔄 Convirtiendo",
+    "download": "💾 Descargar",
+    "error": "❌ Error en la conversión",
+    "loading": "⏳ Cargando motor de audio (~30MB la primera vez)...",
+    "ready": "✅ Motor listo",
+    "remove": "✕ Quitar",
+    "trim": {
+      "title": "✂️ Recortar audio",
+      "start": "Inicio (seg)",
+      "end": "Fin (seg)",
+      "durationHint": "Duración original"
+    },
+    "volume": {
+      "title": "🔊 Ajustar volumen",
+      "percent": "Porcentaje de volumen"
+    },
+    "cover": {
+      "title": "🖼️ Portada del audio",
+      "uploadCover": "Subir imagen de portada (1:1 cuadrado, ≥128x128)",
+      "resetCover": "Quitar portada",
+      "preview": "Vista previa de portada"
+    },
+    "recorder": {
+      "title": "🎙️ Grabadora",
+      "start": "Iniciar grabación",
+      "stop": "Detener grabación",
+      "recording": "Grabando",
+      "ready": "Grabación completada",
+      "noSupport": "Tu navegador no soporta grabación"
+    },
+    "tabs": {
+      "convert": "Convertir formato",
+      "trim": "Recortar",
+      "volume": "Volumen",
+      "cover": "Portada",
+      "recorder": "Grabadora"
+    }
+  }
+}

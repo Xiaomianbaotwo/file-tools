@@ -1,0 +1,107 @@
+{
+  "app": {
+    "title": "Format Convert & Editor",
+    "subtitle": "📤 Batch Convert · 🔒 Fully Local · 15+ Formats"
+  },
+  "upload": {
+    "icon": "📁",
+    "dragText": "Drag & Drop image files here or click to browse",
+    "clickHint": "Supports multiple files · Formats: PNG/JPG/WEBP…"
+  },
+  "fileList": {
+    "empty": "No files added yet",
+    "headerName": "📄 Filename",
+    "headerSize": "📏 Size",
+    "headerFormat": "🎯 Target Format",
+    "headerQuality": "⚙️ Quality",
+    "headerStatus": "📌 Status",
+    "headerActions": "🔧 Actions",
+    "statusPending": "⏳ Pending",
+    "statusConverting": "🔄 Converting",
+    "statusDone": "✅ Done",
+    "statusError": "❌ Error",
+    "btnConvert": "Convert",
+    "btnDownload": "Download",
+    "btnDelete": "Delete"
+  },
+  "formatSelector": {
+    "label": "🎯 Global Format:"
+  },
+  "qualityControl": {
+    "label": "📐 Global Quality:"
+  },
+  "downloadPanel": {
+    "zip": "📦 Pack All as ZIP",
+    "downloadAll": "📥 Download All (Sequential)"
+  },
+  "actions": {
+    "convertAll": "🚀 Convert All",
+    "clearList": "🗑️ Clear List"
+  },
+  "stats": {
+    "title": "📊 Statistics",
+    "total": "📄 Total",
+    "done": "✅ Done",
+    "pending": "⏳ Pending",
+    "error": "❌ Error"
+  },
+  "language": {
+    "switch": "🌐 English / 中文"
+  },
+  "fileEdit": {
+    "nameLabel": "📝 Output filename (without extension)",
+    "sizeLabel": "📐 Output size",
+    "resetSize": "Reset to original",
+    "maxScale": "(max 100× enlargement)",
+    "presetRatios": "Preset ratios:"
+  },
+  "music": {
+    "title": "🎵 Music Format Converter",
+    "subtitle": "📤 Audio conversion · 🎬 Extract audio from video · 🔒 Fully local",
+    "upload": "Drag & Drop audio/video files here",
+    "uploadHint": "Supports MP3, OGG, FLAC, WAV, M4S, MP4 and more",
+    "outputFormat": "🎯 Output Format",
+    "bitrate": {
+      "label": "📶 Bitrate",
+      "default": "Default (auto)"
+    },
+    "convertBtn": "🚀 Convert",
+    "progress": "🔄 Converting",
+    "download": "💾 Download",
+    "error": "❌ Conversion failed",
+    "loading": "⏳ Loading audio engine (first time ~30MB)...",
+    "ready": "✅ Engine ready",
+    "remove": "✕ Remove",
+    "trim": {
+      "title": "✂️ Trim Audio",
+      "start": "Start time (sec)",
+      "end": "End time (sec)",
+      "durationHint": "Original duration"
+    },
+    "volume": {
+      "title": "🔊 Volume Adjust",
+      "percent": "Volume percentage"
+    },
+    "cover": {
+      "title": "🖼️ Audio Cover",
+      "uploadCover": "Upload cover image (1:1 square, ≥128x128)",
+      "resetCover": "Remove cover",
+      "preview": "Cover Preview"
+    },
+    "recorder": {
+      "title": "🎙️ Recorder",
+      "start": "Start Recording",
+      "stop": "Stop Recording",
+      "recording": "Recording",
+      "ready": "Recording completed",
+      "noSupport": "Your browser does not support recording"
+    },
+    "tabs": {
+      "convert": "Format Convert",
+      "trim": "Trim",
+      "volume": "Volume",
+      "cover": "Cover",
+      "recorder": "Recorder"
+    }
+  }
+}

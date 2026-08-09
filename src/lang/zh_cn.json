@@ -1,0 +1,107 @@
+{
+  "app": {
+    "title": "图片格式转换工具",
+    "subtitle": "📤 批量转换 · 🔒 完全本地 · 多种格式支持"
+  },
+  "upload": {
+    "icon": "📁",
+    "dragText": "拖拽图片文件到此处或点击选择",
+    "clickHint": "支持批量 · 格式：PNG/JPG/WEBP……"
+  },
+  "fileList": {
+    "empty": "还没有添加文件",
+    "headerName": "📄 文件名",
+    "headerSize": "📏 大小",
+    "headerFormat": "🎯 目标格式",
+    "headerQuality": "⚙️ 质量",
+    "headerStatus": "📌 状态",
+    "headerActions": "🔧 操作",
+    "statusPending": "⏳ 待转换",
+    "statusConverting": "🔄 转换中",
+    "statusDone": "✅ 已完成",
+    "statusError": "❌ 失败",
+    "btnConvert": "转换",
+    "btnDownload": "下载",
+    "btnDelete": "删除"
+  },
+  "formatSelector": {
+    "label": "🎯 总格式："
+  },
+  "qualityControl": {
+    "label": "📐 总质量："
+  },
+  "downloadPanel": {
+    "zip": "📦 全部打包为 ZIP",
+    "downloadAll": "📥 下载全部文件（逐个）"
+  },
+  "actions": {
+    "convertAll": "🚀 一键全部转换",
+    "clearList": "🗑️ 清空列表"
+  },
+  "stats": {
+    "title": "📊 统计",
+    "total": "📄 总文件",
+    "done": "✅ 完成",
+    "pending": "⏳ 待处理",
+    "error": "❌ 失败"
+  },
+  "language": {
+    "switch": "🌐 中文 / English"
+  },
+  "fileEdit": {
+    "nameLabel": "📝 输出文件名（不含扩展名）",
+    "sizeLabel": "📐 输出尺寸",
+    "resetSize": "重置原始尺寸",
+    "maxScale": "（最大可放大 100 倍）",
+    "presetRatios": "预设比例："
+  },
+  "music": {
+    "title": "🎵 音乐格式转换工具",
+    "subtitle": "📤 音频互转 · 🎬 视频提取音频 · 🔒 完全本地",
+    "upload": "拖拽音频/视频文件到此处",
+    "uploadHint": "支持 MP3、OGG、FLAC、WAV、M4S、MP4 等格式",
+    "outputFormat": "🎯 输出格式",
+    "bitrate": {
+      "label": "📶 码率",
+      "default": "默认（自动）"
+    },
+    "convertBtn": "🚀 开始转换",
+    "progress": "🔄 转换中",
+    "download": "💾 下载",
+    "error": "❌ 转换失败",
+    "loading": "⏳ 正在加载音频引擎（首次约30MB）...",
+    "ready": "✅ 引擎就绪",
+    "remove": "✕ 移除",
+    "trim": {
+      "title": "✂️ 音频修剪",
+      "start": "开始时间 (秒)",
+      "end": "结束时间 (秒)",
+      "durationHint": "原始时长"
+    },
+    "volume": {
+      "title": "🔊 音量调节",
+      "percent": "音量百分比"
+    },
+    "cover": {
+      "title": "🖼️ 音频封面",
+      "uploadCover": "上传封面图片（1:1 正方形，≥128x128）",
+      "resetCover": "移除封面",
+      "preview": "封面预览"
+    },
+    "recorder": {
+      "title": "🎙️ 录音",
+      "start": "开始录音",
+      "stop": "停止录音",
+      "recording": "录音中",
+      "ready": "录制完成",
+      "noSupport": "您的浏览器不支持录音"
+    },
+    "tabs": {
+      "convert": "格式转换",
+      "trim": "修剪",
+      "volume": "音量",
+      "cover": "封面",
+      "recorder": "录音"
+    }
+  }
+}

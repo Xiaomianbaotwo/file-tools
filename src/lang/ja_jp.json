@@ -1,0 +1,107 @@
+{
+  "app": {
+    "title": "画像フォーマット変換ツール",
+    "subtitle": "📤 バッチ変換 · 🔒 完全ローカル · 15以上の形式対応"
+  },
+  "upload": {
+    "icon": "📁",
+    "dragText": "画像ファイルをここにドラッグ＆ドロップまたはクリックして選択",
+    "clickHint": "複数ファイル対応 · 形式: PNG/JPG/WEBP…"
+  },
+  "fileList": {
+    "empty": "まだファイルが追加されていません",
+    "headerName": "📄 ファイル名",
+    "headerSize": "📏 サイズ",
+    "headerFormat": "🎯 出力形式",
+    "headerQuality": "⚙️ 品質",
+    "headerStatus": "📌 状態",
+    "headerActions": "🔧 操作",
+    "statusPending": "⏳ 待機中",
+    "statusConverting": "🔄 変換中",
+    "statusDone": "✅ 完了",
+    "statusError": "❌ エラー",
+    "btnConvert": "変換",
+    "btnDownload": "ダウンロード",
+    "btnDelete": "削除"
+  },
+  "formatSelector": {
+    "label": "🎯 全体の形式:"
+  },
+  "qualityControl": {
+    "label": "📐 全体の品質:"
+  },
+  "downloadPanel": {
+    "zip": "📦 すべてをZIPにまとめる",
+    "downloadAll": "📥 すべてを順次ダウンロード"
+  },
+  "actions": {
+    "convertAll": "🚀 すべて変換",
+    "clearList": "🗑️ リストをクリア"
+  },
+  "stats": {
+    "title": "📊 統計",
+    "total": "📄 総ファイル数",
+    "done": "✅ 完了",
+    "pending": "⏳ 処理待ち",
+    "error": "❌ エラー"
+  },
+  "language": {
+    "switch": "🌐 日本語 / English"
+  },
+  "fileEdit": {
+    "nameLabel": "📝 出力ファイル名（拡張子なし）",
+    "sizeLabel": "📐 出力サイズ",
+    "resetSize": "元のサイズに戻す",
+    "maxScale": "（最大100倍まで拡大）",
+    "presetRatios": "プリセット比率:"
+  },
+  "music": {
+    "title": "🎵 音楽形式変換ツール",
+    "subtitle": "📤 音声変換 · 🎬 動画から音声抽出 · 🔒 完全ローカル",
+    "upload": "音声/動画ファイルをここにドラッグ",
+    "uploadHint": "MP3、OGG、FLAC、WAV、M4S、MP4などに対応",
+    "outputFormat": "🎯 出力形式",
+    "bitrate": {
+      "label": "📶 ビットレート",
+      "default": "デフォルト（自動）"
+    },
+    "convertBtn": "🚀 変換",
+    "progress": "🔄 変換中",
+    "download": "💾 ダウンロード",
+    "error": "❌ 変換失敗",
+    "loading": "⏳ オーディオエンジンを読み込み中（初回約30MB）...",
+    "ready": "✅ エンジン準備完了",
+    "remove": "✕ 削除",
+    "trim": {
+      "title": "✂️ トリミング",
+      "start": "開始時間 (秒)",
+      "end": "終了時間 (秒)",
+      "durationHint": "元の長さ"
+    },
+    "volume": {
+      "title": "🔊 音量調整",
+      "percent": "音量パーセント"
+    },
+    "cover": {
+      "title": "🖼️ オーディオカバー",
+      "uploadCover": "カバー画像をアップロード（1:1正方形、128x128以上）",
+      "resetCover": "カバーを削除",
+      "preview": "カバープレビュー"
+    },
+    "recorder": {
+      "title": "🎙️ 録音",
+      "start": "録音開始",
+      "stop": "録音停止",
+      "recording": "録音中",
+      "ready": "録音完了",
+      "noSupport": "お使いのブラウザは録音に対応していません"
+    },
+    "tabs": {
+      "convert": "形式変換",
+      "trim": "トリミング",
+      "volume": "音量",
+      "cover": "カバー",
+      "recorder": "録音"
+    }
+  }
+}
